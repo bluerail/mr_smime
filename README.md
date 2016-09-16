@@ -1,6 +1,7 @@
 # MrSmime
 
-Secure/Multipurpose Internet Mail Extensions (S/MIME) support for ActionMailer
+Secure/Multipurpose Internet Mail Extensions (S/MIME) support for ActionMailer, inspired by a blog post from Andrew
+White (https://unboxed.co/blog/sending-smime-encrypted-emails-with-action-mailer/)
 
 ## Installation
 
