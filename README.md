@@ -1,7 +1,7 @@
-# MrSmime
+# Mr Smime
 
-Secure/Multipurpose Internet Mail Extensions (S/MIME) support for ActionMailer, inspired by a blog post from Andrew
-White (https://unboxed.co/blog/sending-smime-encrypted-emails-with-action-mailer/)
+Secure/Multipurpose Internet Mail Extensions (S/MIME) support for ActionMailer, inspired by a blog post by Andrew
+White: [Sending S/MIME encrypted emails with Action Mailer](https://unboxed.co/blog/sending-smime-encrypted-emails-with-action-mailer/).
 
 ## Installation
 
@@ -17,7 +17,7 @@ And then execute:
 
 ## Usage
 
-Setup a certificate-path in your applicaion.rb:
+Setup a certificate path in your application.rb:
 
 ```ruby
 module MyApp
@@ -76,7 +76,7 @@ $ openssl genrsa -out ca.key 4096
 $ openssl req -new -x509 -days 365 -key ca.key -out ca.crt
 ```
 
-Then create a certificate for each of your mail addresses (i'm certain there is a better way to do this):
+Then create a certificate for each of your mail addresses (I'm certain there is a better way to do this):
 
 ```
 $ openssl genrsa -out jane.example.com.key 4096
