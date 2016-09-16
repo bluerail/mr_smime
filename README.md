@@ -51,6 +51,12 @@ That's it!
 * Add options to use keys with passphrases
 * Add options to enable on a per something base
 
+## Changelog
+
+### 0.1.0 (September 16, 2016)
+
+* Initial release
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can
