@@ -34,6 +34,14 @@ module MrSmime
       X509::Certificate.new(File.read(certificate_path))
     end
 
+    def ca_bundles
+      pem_header = '-----BEGIN CERTIFICATE-----'
+      # drop(2): blank item, original certificate
+      File.read(certificate_path).split(pem_header).drop(2).map { |cert|
+        X509::Certificate.new(pem_header + cert)
+      }
+    end
+
     def certificate_path
       filename(:pem)
     end
