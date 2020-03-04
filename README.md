@@ -54,6 +54,10 @@ That's it!
 
 ## Changelog
 
+### 0.2.0 (March 4, 2020)
+
+* [(Yuji-Kuroko)](https://github.com/Yuji-Kuroko) [Added support for CA-bundles](https://github.com/bluerail/mr_smime/pull/1)
+
 ### 0.1.0 (September 16, 2016)
 
 * Initial release
