@@ -14,7 +14,7 @@ module MrSmime
           sender_certificate.certificate,
           sender_certificate.private_key,
           data,
-          [],
+          sender_certificate.ca_bundles,
           OpenSSL::PKCS7::DETACHED
         )
       )
